@@ -8,7 +8,7 @@ describe('#solution.js', () => {
     expect(output).toEqual(['4', '3', '2', '1']);
   });
   test('Testing that arr is populated', () => {
-    const output = solution.reverse_string([]);
-    expect(output).toEqual([null]);
+    const output = solution.reverse_string('');
+    expect(output).toEqual(null);
   });
 });
