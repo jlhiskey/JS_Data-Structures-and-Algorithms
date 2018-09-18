@@ -2,15 +2,27 @@
 
 const solution = module.exports = {};
 
-solution.reverse_string = (arr) => {
-  let array = arr;
-  if (arr.length > 0) {
-    const revArr = array;
-    array = [];
-    for (let i = 0; i < revArr.length; i++) {
-      array[i] = revArr[(revArr.length - 1) - i];
+solution.insertMiddle = (arr, mid) => {
+  const newArr = [];
+  let midIdx = 0;
+
+  if (arr.length % 2 === 0) {
+    midIdx = (arr.length / 2);
+    if (arr.length % 2 !== 0) {
+      midIdx = ((arr.length / 2) + 0.5);
     }
-    return array;
+    for (let i = 0; i <= arr.length; i++) {
+      if (i === midIdx) {
+        newArr[i] = mid;
+      }
+      if (i < midIdx) {
+        newArr[i] = arr[i];
+      }
+      if (i > midIdx) {
+        newArr[i] = arr[i - 1];
+      }
+    }
+    return newArr;
   }
   return null;
 };
