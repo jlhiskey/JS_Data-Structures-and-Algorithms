@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="706380ea-1cdd-43c2-93f9-7103a7f128b0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../reverse-string/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../reverse-string/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reverse-string/__test__/solution.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../reverse-string/__test__/solution.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reverse-string/lib/solution.js" beforeDir="false" afterPath="$PROJECT_DIR$/../reverse-string/lib/solution.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,6 +17,7 @@
     <session id="-1257734669">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -70,8 +69,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="92">
-                <caret line="2" column="181" selection-start-line="2" selection-start-column="181" selection-end-line="2" selection-end-column="181" />
+              <first_editor relative-caret-position="207">
+                <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               </first_editor>
               <second_editor />
             </state>
@@ -123,7 +122,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="174" />
     <option name="width" value="1850" />
     <option name="height" value="2172" />
@@ -203,15 +202,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537306473023</updated>
-      <workItem from="1537306474792" duration="3741000" />
+      <workItem from="1537306474792" duration="4059000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3741000" />
+    <option name="totallyTimeSpent" value="4059000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="86" y="-6" width="1841" height="1093" extended-state="7" />
+    <frame x="86" y="-6" width="1841" height="1093" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
@@ -262,8 +261,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="92">
-            <caret line="2" column="181" selection-start-line="2" selection-start-column="181" selection-end-line="2" selection-end-column="181" />
+          <first_editor relative-caret-position="207">
+            <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           </first_editor>
           <second_editor />
         </state>
