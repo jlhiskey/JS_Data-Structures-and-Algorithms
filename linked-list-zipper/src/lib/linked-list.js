@@ -15,22 +15,49 @@ module.exports = class LinkedList {
     return this;
   }
 
-  listZipper(ll1, ll2) {
-    if (!ll1.head) {
-      throw new Error('__ERROR__ The list is empty');
+  listZipper(linkedListOne, linkedListTwo) {
+    // this handles neither list being populated
+    if (!linkedListOne.head && !linkedListTwo.head) {
+      throw new Error('__ERROR__ The lists are empty');
     }
-    let targetOne = ll1.head;
-    let targetTwo = ll2.head;
-    let helperOne = '';
-    let helperTwo = '';
-    while (targetOne.next || targetTwo.next) {
-      helperOne = targetOne.next;
-      targetOne.next = targetTwo;
-      targetOne = helperOne;
-      helperTwo = targetTwo.next;
-      targetTwo.next = targetOne;
-      targetTwo = helperTwo;
+    // this handles linkedListOne not being populated
+    if (!linkedListOne.head) {
+      return linkedListTwo;
     }
-    return ll1;
+    // this handles linkedListTwo not being populated
+    if (!linkedListTwo.head) {
+      return linkedListOne;
+    } 
+    if (linkedListOne.head && linkedListTwo.head) {
+      let targetOne = linkedListOne.head;
+      let targetTwo = linkedListTwo.head;
+      let helperOne = targetOne;
+      let helperTwo = targetTwo;
+      while (targetOne || targetTwo) {
+        if (targetOne.next) {
+          helperOne = targetOne.next;
+        }
+        if (targetTwo.next) {
+          helperTwo = targetTwo.next;
+        }
+        if (targetOne.next && targetTwo.next) {
+          targetOne.next = targetTwo;
+          targetOne = helperOne;
+          targetTwo.next = targetOne;
+          targetTwo = helperTwo;
+        }
+        if (!targetOne.next) {
+          targetOne.next = targetTwo;
+          return linkedListOne;
+        }
+        if (!targetTwo.next) {
+          helperOne = targetOne.next;
+          targetOne.next = targetTwo;
+          targetTwo.next = helperOne;
+          return linkedListOne;
+        }
+      }
+    } 
+    return undefined; 
   }
 };
