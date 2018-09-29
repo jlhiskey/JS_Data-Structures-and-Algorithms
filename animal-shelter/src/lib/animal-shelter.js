@@ -6,7 +6,7 @@ module.exports = class AnimalShelter {
     this.dog = [];
   }
 
-  enqueue(animal) {
+  abandon(animal) {
     let counter = 1;
     if (animal.type === 'cat') {
       this.cat.position = counter;
@@ -23,7 +23,7 @@ module.exports = class AnimalShelter {
     return undefined;
   }
 
-  dequeue(animal) {
+  adopt(animal) {
     let adoptedPet = null;
 
     if (animal !== 'dog' && animal !== 'cat') {
