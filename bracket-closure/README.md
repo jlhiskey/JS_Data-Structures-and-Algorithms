@@ -1,10 +1,12 @@
 [![Build Status](https://travis-ci.com/jlhiskey/code-challenge.svg?branch=master)](https://travis-ci.com/jlhiskey/code-challenge)
 
-# Find-Daddy
- - Write a function that accepts a binary tree, parent value, child value.
- - Return whether the child value is a child of the parent value.
+# Bracket-Closure
+ - Write a function that accepts a string and checks to see if and (, ), [, ], {, } contained within the string have closure.
  ## Function
- - When you input a tree, parent, and child the function will:
-    - Respond with 'You are the father.' if the father and child are related.
-    - Respond with 'No father found.' if the father and child are not related or if the father does not exist.
-    - Respond with 'No child found.' if the child does not exist.
+ - When you input a string:
+    - Responds true is string contains no brackets. 
+        - Ex. 'hello' = true
+    - Respond true is and brackets within string are paired.
+        - Ex. '{([hello])}' = true
+    - Responds false if contains brackets but they are not paired.
+        - Ex. '{())([hello])}' = false
