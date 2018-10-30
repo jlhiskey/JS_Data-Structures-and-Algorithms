@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.com/jlhiskey/code-challenge.svg?branch=master)](https://travis-ci.com/jlhiskey/code-challenge)
 
-# Character-Tally
+# BFS-Graph
  - Write a function that accept a graph, a starting vertex, and a target vertex and returns a boolean declaring is a path from starting vertex to target vertex exists.
  ## Function
  - When you input:

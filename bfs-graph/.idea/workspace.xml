@@ -2,32 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f36d0126-7246-4a0a-a82f-91f974250767" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/bfs-graph.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/graph.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../animal-shelter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../animal-shelter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bracket-closure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bracket-closure/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../char-tally/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../char-tally/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../child-height/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../child-height/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../find-daddy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../find-daddy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../find-duplicate/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../find-duplicate/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../find-duplicate/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../find-duplicate/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fizz-buzz/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fizz-buzz/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../linked-list-zipper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list-zipper/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../linked-list-zipper/src/lib/linked-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list-zipper/src/lib/linked-list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../matching-trees/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../matching-trees/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pawn-killer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pawn-killer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reverse-linked/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reverse-linked/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stacks-queues/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../stacks-queues/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/edge.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/edge.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -61,13 +38,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="js" value="381" />
-          <entry key="md" value="219" />
+          <entry key="json" value="1" />
+          <entry key="md" value="228" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="JSON" value="1" />
           <entry key="JavaScript" value="381" />
-          <entry key="Markdown" value="219" />
+          <entry key="Markdown" value="228" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -83,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lib/graph.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="460">
+              <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -98,14 +77,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1541">
-                <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+              <first_editor relative-caret-position="345">
+                <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package-lock.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2661">
+              <caret line="4644" column="25" lean-forward="true" selection-start-line="4644" selection-start-column="25" selection-end-line="4644" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -122,8 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lib/edge.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="184">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -132,7 +129,7 @@
         <entry file="file://$PROJECT_DIR$/src/lib/vertex.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -157,12 +154,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/lib/edge.js" />
         <option value="$PROJECT_DIR$/src/lib/vertex.js" />
         <option value="$PROJECT_DIR$/src/__test__/balanced-tree.test.js" />
         <option value="$PROJECT_DIR$/src/lib/graph.js" />
         <option value="$PROJECT_DIR$/src/lib/bfs.js" />
         <option value="$PROJECT_DIR$/src/__test__/bfs-graph.test.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/lib/edge.js" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -267,7 +265,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5046000" />
+    <option name="totallyTimeSpent" value="5108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="60" y="-6" width="1867" height="1093" extended-state="6" />
@@ -300,20 +298,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/lib/vertex.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/edge.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/__test__/bfs-graph.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1131">
@@ -323,8 +307,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/graph.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="460">
+          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
@@ -338,10 +329,31 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1541">
-            <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+          <first_editor relative-caret-position="345">
+            <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/edge.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/vertex.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2661">
+          <caret line="4644" column="25" lean-forward="true" selection-start-line="4644" selection-start-column="25" selection-end-line="4644" selection-end-column="25" />
         </state>
       </provider>
     </entry>
