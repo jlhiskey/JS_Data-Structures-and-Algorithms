@@ -1,6 +1,6 @@
 'use strict';
 
-const Queue = require('queue-fifo');
+const Queue = require('queue-fifo'); // eslint-disable-line
 
 module.exports = function bfs(graph, startVertex, endVertex) {
   const queue = new Queue();
