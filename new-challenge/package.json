@@ -19,8 +19,5 @@
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jest": "^21.22.0",
     "jest": "^23.6.0"
-  },
-  "dependencies": {
-    "queue-fifo": "^0.2.5"
   }
 }
